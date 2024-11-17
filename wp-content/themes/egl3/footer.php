@@ -8,6 +8,7 @@
 </footer>
 </div>
 <?php wp_footer(); ?>
+test deploy
 </body>
 
 </html>

@@ -1,0 +1,20 @@
+[30-Jun-2023 15:43:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php on line 15
+[08-Jul-2023 06:10:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-none.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-none.php on line 17
+[09-Jul-2023 15:32:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php on line 17
+[11-Jul-2023 23:19:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-image.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-image.php on line 15
+[12-Jul-2023 01:07:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-video.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-video.php on line 15

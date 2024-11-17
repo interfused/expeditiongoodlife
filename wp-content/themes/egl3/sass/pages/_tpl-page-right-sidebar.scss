@@ -1,0 +1,21 @@
+body.page-template-page-right-sidebar {
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: $max-page-width;
+    margin: 0 auto;
+    main,
+    aside {
+      padding: 2em;
+    }
+  }
+  #wrapper .header {
+    @extend .colorScheme2;
+    padding: 1em;
+    h1 {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}

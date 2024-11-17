@@ -1,0 +1,8 @@
+[08-Jul-2023 09:48:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php on line 14
+[08-Jul-2023 11:11:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php on line 13

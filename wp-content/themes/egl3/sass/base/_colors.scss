@@ -1,0 +1,91 @@
+$base-color: #f4edce;
+$secondary-color: #78a18c;
+$green1: #3ba0a4;
+$button-color: #e4742d;
+$hover-color: #e4742d;
+$tab-bg-color: $base-color;
+$border-color: #42454a;
+$form-border-color: #999999;
+$dark-gray: #666666;
+$darkest-gray: #005155;
+$light-gray: #f3f3f3;
+$nav-inactive: #6295d8;
+$error-color: #ef5353;
+$black-alpha: rgba(0, 0, 0, 0.7);
+
+.base-color {
+  color: $base-color;
+}
+
+.secondary-color {
+  color: $secondary-color;
+}
+
+.btn.btn-dark {
+  background-color: $button-color;
+  border-color: $button-color;
+}
+.btn-link.btn-outline-dark {
+  color: black;
+  text-decoration: none;
+}
+.btn-link.btn-outline-dark:hover {
+  background: transparent;
+  transition: background 0.5s ease;
+}
+$nav-pills-link-active-bg: $secondary-color;
+$nav-tabs-link-active-bg: $secondary-color;
+$nav-tabs-link-active-color: white;
+
+.colorScheme1 {
+  color: $darkest-gray;
+  background-color: $base-color;
+  a {
+    color: $darkest-gray;
+    &:hover {
+      color: $darkest-gray;
+    }
+  }
+
+  h1,
+  h2 {
+    color: #267f82;
+  }
+}
+
+.colorScheme2 {
+  background-color: $secondary-color;
+  color: $base-color;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $base-color;
+  }
+
+  .secondary-color {
+    color: #0098a3;
+  }
+
+  a {
+    color: $light-gray;
+    &:hover {
+      color: $light-gray;
+    }
+  }
+}
+
+/** BROWSER UPDATE (conditionally shows depending on browser version) **/
+#buorgig,
+#buorgul,
+#buorgpermanent {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+}
+#buorgig {
+  background-color: #333 !important;
+}

@@ -1,0 +1,4 @@
+[02-Sep-2024 00:54:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home1/goodlife/public_html/wp-content/themes/twentyeleven/functions.php:50
+Stack trace:
+#0 {main}
+  thrown in /home1/goodlife/public_html/wp-content/themes/twentyeleven/functions.php on line 50

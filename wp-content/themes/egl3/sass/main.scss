@@ -1,0 +1,21 @@
+@import "vendors/bootstrap/bootstrap";
+
+@import "abstracts/variables";
+
+@import "base/colors.scss";
+@import "base/fonts.scss";
+@import "base/animation.scss";
+
+@import "components/forms.scss";
+@import "components/navtabs.scss";
+
+@import "layout/header";
+@import "layout/sidebar";
+
+@import "layout/footer";
+
+@import "themes/base.scss";
+
+@import "pages/home";
+@import "pages/tpl-page-right-sidebar";
+@import "pages/blog";

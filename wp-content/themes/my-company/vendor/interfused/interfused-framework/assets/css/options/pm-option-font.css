@@ -1,0 +1,14 @@
+.pm-checkbox-list {
+  padding: 10px 0px;
+}
+.pm-checkbox-list strong {
+  display: block;
+  clear: both;
+}
+.pm-checkbox-list label {
+  padding: 2px;
+  margin-right: 10px;
+  line-height: 30px;
+  display: block;
+  float: left;
+}

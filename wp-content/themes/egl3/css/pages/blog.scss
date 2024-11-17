@@ -1,0 +1,374 @@
+///BLOG
+$blog-small-col-width1: 24%;
+$blog-small-col-width2: 32%;
+$blog-small-col-width3: 49%;
+
+.blog {
+  //front overview
+  #featured_articles_wrapper {
+    p {
+      margin: 0;
+      margin-bottom: 1em;
+    }
+    .author_box {
+      background-color: $black-alpha;
+      margin-top: 1em;
+
+      #imgContainer {
+        height: 100px;
+        width: 100px;
+      }
+    }
+  }
+
+  .cta.find-a-lawyer {
+    background: linear-gradient(149deg, #000 0%, #3d3d3d 100%) !important;
+    section {
+      margin-top: 1em;
+    }
+    #mmu_ac_search_form {
+      flex-direction: column;
+      #search_city,
+      #searchFirmCityLink {
+        margin-top: $standard-padding;
+      }
+    }
+    button {
+      margin-top: 1em;
+      background-color: $gold !important;
+      &:hover {
+        background-color: $black !important;
+      }
+    }
+  }
+
+  #container {
+    padding-top: 0;
+    background-color: #ddd;
+    background-size: 100% 300px;
+  }
+
+  #featured_wrapper {
+    @extend .flex-wrapper-h;
+    width: 100%;
+
+    #featured_articles_wrapper {
+      flex-grow: 1;
+
+      position: relative;
+
+      @include media(">tablet") {
+        width: 60%;
+      }
+
+      .text-link {
+        font-size: 0.9rem;
+      }
+
+      article {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+        display: flex;
+        align-items: flex-end;
+        .overview {
+          padding: $standard-padding;
+          width: 100%;
+          @extend .colorScheme2;
+          background-color: $black-alpha;
+          h2 {
+            margin: 0;
+          }
+        }
+      }
+    }
+    .cta {
+      width: 100%;
+      background: $black-alpha;
+      color: $white;
+      margin-top: 2em;
+      margin-bottom: 34px;
+      @include media(">desktop") {
+        width: 400px;
+        margin-left: $standard-padding;
+        margin-top: 0;
+      }
+
+      h3 {
+        margin-top: 0;
+        @include media(">tablet") {
+          margin-top: 1em;
+        }
+      }
+    }
+  }
+
+  #cta2 {
+    width: 100%;
+    position: relative;
+    @extend .colorScheme2;
+    padding: $standard-padding;
+    margin-top: $standard-padding * 2;
+
+    ul.checkmarks {
+      @include media(">tablet") {
+        columns: 2;
+      }
+    }
+
+    h2 {
+      margin: 0;
+    }
+
+    & > div:nth-of-type(1) {
+      flex-grow: 1;
+    }
+    & > div:nth-of-type(2) {
+      width: 200px;
+      text-align: right;
+      padding-top: $standard-padding * 2;
+    }
+  }
+
+  #content {
+    width: 100%;
+    padding-right: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .category_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    & > h2 {
+      width: 100%;
+    }
+
+    article {
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      justify-content: flex-end;
+      margin-bottom: 2em;
+
+      font-size: 0.95rem;
+
+      @include media(">tablet") {
+        width: $blog-small-col-width2;
+      }
+
+      .overview {
+        padding: $standard-padding;
+        background-color: $black-alpha;
+        color: $white;
+        text-decoration: none;
+        &:hover {
+          background-color: $dark-gray;
+        }
+        a {
+          text-decoration: none;
+          color: $white;
+        }
+
+        h3 {
+          font-size: 1.1em;
+          padding: 0;
+          margin: 0;
+          margin-bottom: 1em;
+        }
+      }
+    }
+
+    &.large article {
+      margin-bottom: 1em !important;
+
+      @include media(">tablet") {
+        width: $blog-small-col-width3;
+      }
+      @include media(">desktop") {
+        width: $blog-small-col-width2;
+      }
+    }
+
+    &.medium article {
+      margin-bottom: 1em !important;
+    }
+
+    &.small,
+    &.small-single {
+      flex-direction: row;
+      display: inline-flex;
+      justify-content: space-between;
+      width: 100%;
+
+      @include media(">tablet") {
+        width: $blog-small-col-width3;
+      }
+
+      @include media(">desktop") {
+        width: $blog-small-col-width2;
+      }
+
+      & > h2 {
+        font-size: 1.1rem;
+      }
+
+      h3 {
+        min-height: 50px;
+      }
+
+      article {
+        width: 100%;
+
+        @include media(">tablet") {
+          width: $blog-small-col-width3;
+        }
+
+        .excerpt {
+          position: absolute;
+          left: -9999px;
+          top: -9999px;
+        }
+      }
+    }
+
+    &.small-single {
+      width: 100%;
+
+      @include media(">tablet") {
+        width: $blog-small-col-width1;
+      }
+
+      article {
+        width: 100%;
+      }
+    }
+  }
+  /** search firm form **/
+  .cta.find-a-lawyer * {
+    width: 100%;
+  }
+}
+
+.single-post {
+  .wp-post-image {
+    width: 100%;
+    height: auto;
+  }
+  #content {
+    p {
+      font-size: $standard-font-size;
+    }
+  }
+  #sidebar.affix {
+    position: fixed;
+    right: 0;
+    top: 180px;
+  }
+
+  a {
+    font-weight: bold;
+  }
+  .wp-post-image {
+    margin-bottom: 0;
+  }
+  header {
+    @extend .colorScheme2;
+    padding: $standard-padding;
+
+    h1 {
+      margin: 0;
+      font-size: 1.75rem;
+      @include media(">desktop") {
+        font-size: 2.75rem;
+      }
+    }
+    .categories_list {
+      font-size: 0.8em;
+      color: $light-gray;
+      opacity: 0.8;
+    }
+  }
+
+  article {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 1.1rem;
+    }
+    ul {
+      list-style: circle;
+      margin-left: 2em;
+    }
+  }
+}
+
+//ARCHIVE CATEGORY PAGES
+.archive.category {
+  #content {
+    header {
+      width: 100%;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    article {
+      display: inline-flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: $standard-padding;
+      @extend .colorScheme2;
+      background-color: $black-alpha;
+
+      img {
+        margin-bottom: 0;
+      }
+
+      header {
+        padding: $standard-padding;
+        background-color: $dark-gray;
+        h2 {
+          font-size: 1.5rem;
+          margin: 0;
+        }
+        a {
+          text-decoration: none;
+        }
+      }
+      .entry-summary {
+        padding: $standard-padding;
+        p {
+          margin: 0;
+        }
+        p + p {
+          margin-top: 1em;
+        }
+      }
+
+      @include media(">tablet") {
+        width: 32%;
+      }
+    }
+  }
+
+  .cta {
+    width: 100%;
+    margin: 2em 0;
+    h2 {
+      margin-top: 0;
+    }
+  }
+}

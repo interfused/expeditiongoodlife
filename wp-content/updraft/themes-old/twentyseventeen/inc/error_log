@@ -1,0 +1,20 @@
+[07-Jul-2023 08:32:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/custom-header.php:53
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/custom-header.php on line 53
+[07-Jul-2023 14:06:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/template-tags.php:196
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
+[07-Jul-2023 18:26:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php:22
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[08-Jul-2023 09:33:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/customizer.php:122
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/customizer.php on line 122
+[09-Jul-2023 01:53:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26

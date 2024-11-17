@@ -1,0 +1,222 @@
+.woocommerce {
+  .woocommerce-breadcrumb {
+    display: none;
+  }
+
+  a.button {
+    padding-left: 1.5em;
+    @extend .type-hdr;
+  }
+
+  //INDIVIDUAL PRODUCT PAGES (for subscriptions)
+  div.product.product_cat-subscriptions {
+    .product_meta {
+      .sku_wrapper,
+      .posted_in {
+        display: none;
+      }
+    }
+
+    .related,
+    .woocommerce-tabs {
+      display: none;
+    }
+  }
+
+  .woovr-variations {
+    padding-bottom: 2em;
+  }
+
+  div.product {
+    div.images img {
+      height: auto;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+}
+
+.woocommerce-billing-fields__field-wrapper {
+  @include media(">tablet") {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  p {
+    float: none;
+    width: 100%;
+  }
+
+  p#billing_first_name_field,
+  p#billing_last_name_field,
+  p#billing_state_field,
+  p#billing_postcode_field {
+    @include media(">tablet") {
+      width: $width-col-half;
+    }
+  }
+}
+
+.dropshadow {
+  box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 8%);
+  border-radius: 4px;
+}
+.woocommerce-MyAccount-content {
+  @extend .dropshadow;
+  padding: 1em;
+  label {
+    text-transform: uppercase;
+  }
+
+  a.button {
+    text-transform: uppercase;
+    padding-left: 1.5em;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  border: 1px solid #e5e5e5;
+}
+
+.woocommerce-MyAccount-navigation {
+  @extend .dropshadow;
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      a {
+        text-decoration: none;
+        color: $dark-gray;
+        @extend .type-hdr;
+        display: block;
+        padding: 1em;
+      }
+    }
+
+    li.is-active {
+      a {
+        background-color: $gold;
+        color: $white;
+      }
+    }
+  }
+}
+
+//SUBSCRIPTIONS ARCHIVE PAGE
+.term-subscriptions {
+  .woocommerce-result-count,
+  .woocommerce-ordering {
+    display: none;
+  }
+  #container {
+    @extend .colorScheme2;
+  }
+  ul.products {
+    margin-top: 2em;
+  }
+}
+
+.mmu_price_v2 .woocommerce-page.columns-3 ul.products li.product,
+.woocommerce.columns-3 ul.products li.product {
+  text-align: center;
+  padding-bottom: 2em;
+
+  .woocommerce ul.products li.product .woocommerce-loop-product__title {
+    font-size: 1.5em;
+  }
+
+  .price {
+    color: $light-gray;
+    .from {
+      color: $light-gray;
+    }
+  }
+
+  &.post-367 {
+    background-color: #d98d3b !important;
+    @include media(">desktop") {
+      transform: scale(0.9);
+    }
+  }
+  &.post-3499 {
+    background-color: #d98d3b !important;
+    background: linear-gradient(124deg, #d98d3b 0%, #5a5a5a 35%, #c29c73 100%);
+  }
+  &.post-585 {
+    background-color: #888 !important;
+    @include media(">desktop") {
+      transform: scale(0.9);
+    }
+  }
+
+  a.button {
+    background-color: $dark-gray !important;
+  }
+}
+
+.single-product {
+  .long_desc {
+    margin-top: 2em;
+
+    ul {
+      list-style: inside;
+    }
+  }
+}
+
+.price-table {
+  .woocommerce .products ul li,
+  .woocommerce ul.products li {
+    padding: 0.5em;
+    margin: 0;
+    &:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+
+    .woocommerce-loop-product__title {
+      display: none;
+    }
+
+    .price {
+      padding: 1em;
+      position: relative;
+
+      .amount {
+        font-size: 1.3em;
+      }
+    }
+  }
+
+  .woocommerce.columns-3 ul.products li.product {
+    width: 100%;
+    @include media(">tablet") {
+      width: 30.75%;
+    }
+  }
+}
+
+//VARIATIONS
+.woovr-variation-radio {
+  .woovr-variation-info .woovr-variation-price {
+    font-size: 1.4rem;
+    .subscription-details {
+      color: $gold;
+    }
+  }
+  .woovr-variation-description {
+    margin-top: 1em;
+    font-size: 1rem !important;
+  }
+}
+
+.woocommerce-info {
+  border-top-color: $gold;
+  &:before {
+    color: $gold;
+  }
+}

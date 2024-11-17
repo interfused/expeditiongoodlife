@@ -1,0 +1,36 @@
+{
+    "name": "interfused/interfused-bbpress",
+    "type": "wordpress-theme",
+    "description": "Interfused BBPress Boostrap",
+    "license": "ThemeForest",
+    "authors": [
+        {
+            "name": "John Langan",
+            "email": "john.langan@interfused.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "interfused/interfused-php-standards": "1.0.*",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "1.*",
+        "interfused/interfused-module-ant-utils": "1.0.*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:interfused/interfused-php-standards.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:interfused/interfused-module-ant-utils.git"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

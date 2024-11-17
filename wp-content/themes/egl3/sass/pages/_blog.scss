@@ -1,0 +1,32 @@
+.blog,
+.category {
+  main img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    #content {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 4em;
+      header {
+        width: 100%;
+        margin-bottom: 1em;
+      }
+      article {
+        width: 30%;
+        .entry-title a {
+          text-decoration: none;
+          font-size: 1.6rem;
+        }
+        .entry-meta {
+          display: none;
+        }
+      }
+    }
+  }
+}

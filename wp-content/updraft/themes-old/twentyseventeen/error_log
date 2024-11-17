@@ -1,0 +1,52 @@
+[30-Apr-2023 04:14:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/archides/public_html/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[01-Jul-2023 17:41:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/archides/public_html/wp-content/themes/twentyseventeen/front-page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/front-page.php on line 15
+[07-Jul-2023 19:13:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/archides/public_html/wp-content/themes/twentyseventeen/single.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/single.php on line 13
+[08-Jul-2023 09:54:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home2/archides/public_html/wp-content/themes/twentyseventeen/searchform.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/searchform.php on line 13
+[08-Jul-2023 22:32:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home2/archides/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[08-Jul-2023 23:48:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/archides/public_html/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[09-Jul-2023 00:38:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function post_password_required() in /home2/archides/public_html/wp-content/themes/twentyseventeen/comments.php:21
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/comments.php on line 21
+[09-Jul-2023 03:13:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/archides/public_html/wp-content/themes/twentyseventeen/header.php:16
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/header.php on line 16
+[09-Jul-2023 06:25:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home2/archides/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[09-Jul-2023 07:34:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home2/archides/public_html/wp-content/themes/twentyseventeen/sidebar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/sidebar.php on line 13
+[09-Jul-2023 13:36:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/archides/public_html/wp-content/themes/twentyseventeen/page.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/page.php on line 18
+[10-Jul-2023 04:27:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/archides/public_html/wp-content/themes/twentyseventeen/search.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/search.php on line 13
+[27-May-2024 04:41:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/archides/public_html/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/archides/public_html/wp-content/themes/twentyseventeen/index.php on line 18

@@ -1,0 +1,9 @@
+input, select, textarea, .form-control{
+    border-color:$form-border-color !important;
+}
+form .form-control-wrap{
+    margin-bottom: 16px;
+}
+body .form-control {
+    padding: .8rem .75rem;
+}

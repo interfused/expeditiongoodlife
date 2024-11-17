@@ -1,0 +1,417 @@
+@charset "UTF-8";
+.pre-scrollable,.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse,  #masthead.navbar-sticky .navbar-collapse{max-height:100%;}
+/*
+@font-face {
+    font-family: 'channel_slanted_1regular';
+    src: url('../fonts/channel/channel_slanted1-webfont.eot');
+    src: url('../fonts/channel/channel_slanted1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/channel/channel_slanted1-webfont.woff2') format('woff2'),
+         url('../fonts/channel/channel_slanted1-webfont.woff') format('woff'),
+         url('../fonts/channel/channel_slanted1-webfont.ttf') format('truetype'),
+         url('../fonts/channel/channel_slanted1-webfont.svg#channel_slanted_1regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+p.signature{font-family:'channel_slanted_1regular'; font-size:3rem;}
+*/
+
+@font-face {
+    font-family: 'jennifer_lynneregular';
+	
+    src: url('../fonts/jennifer_lynne/jennifer_lynne-webfont.eot');
+    src: url('../fonts/jennifer_lynne/jennifer_lynne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jennifer_lynne/jennifer_lynne-webfont.woff2') format('woff2'),
+         url('../fonts/jennifer_lynne/jennifer_lynne-webfont.woff') format('woff'),
+         url('../fonts/jennifer_lynne/jennifer_lynne-webfont.ttf') format('truetype'),
+         url('../fonts/jennifer_lynne/jennifer_lynne-webfont.svg#jennifer_lynneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p.signature{font-family:'jennifer_lynneregular'; font-size:6rem;}
+ 
+
+
+.swatch-green .subheader{}
+
+.paddedTop{padding-top:1rem;}
+.paddedBottom{padding-bottom:1rem;}
+.paddedTop-2x{padding-top:2rem;}
+.paddedBottom-2x{padding-bottom:2rem;}
+.paddedBottom-4x{padding-bottom:4rem;}
+
+#masthead{background:rgba(0,0,0,.7	);}
+#masthead .nav > li > a, #masthead.navbar-scrolled .navbar-nav > li > a {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* HIDE DATE */
+.blog .post-head small{}
+
+#socialProfiles a .fa{color:#f4edce;}
+
+.post-title,.blog-header-title,h1,h2,h3,h4,h5,h6{ font-style:italic; font-weight:600;}
+
+.post-title{font-size:5rem;}
+
+.scriptlesssocialsharing h3, #fbCommentBox h3{font-size:3rem; margin-bottom:1rem; line-height:3rem;}
+
+
+.eglAnimated, #masthead .navbar-brand{-webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;}
+  
+.navbar-header{margin-top:10px; margin-bottom:10px; /* display:block; text-align:center; float:none; */ }
+
+header p.normal{text-transform:uppercase; font-weight:600;}
+
+.vCenter{
+	position:relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+	}
+
+/** MASTER BANNERS **/
+#mastbanner{ height:200px; background-color:#f4edce;  background-size:cover;  background-position: right top;  background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/home-natural-healthy-living-01b.jpg); }
+#eglCircle{display:none;}
+
+.category-15 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/healthy-natural-living-about-02.jpg); }
+.page-id-1650 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/mimi-01.jpg); }
+
+
+
+ .category-47 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/paleo-wheat-belly-desserts.jpg);}
+
+.category-48 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/drinks.jpg);}
+.category-49 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/juicing.jpg);}
+
+.category-9 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/11/walk2.jpg); background-position: center center;}
+
+.category-43 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/beauty.jpg); }
+
+.page-id-1647 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/amanda-tristan.jpg); }
+
+.page-id-17 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/about-02.jpg); }
+
+.category-11 #mastbanner, .category-46 #mastbanner, .category-55 .category-45 #mastbanner, .category-55 .category-15 #mastbanner, .category-57 .category-15 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/healthy-food.jpg);}
+
+.category-12 #mastbanner, .category-45 #mastbanner{background-image:url( http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/healthy-paleo-cooking-01.jpg ); }
+
+.category-55 .category-45 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/healthy-food.jpg);}
+
+.category-14 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/amanda-beach-hawaii.jpg); }
+.category-50 #mastbanner, .category-50 .category-13 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/home.jpg); }
+.category-13 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/essential-oils.jpg); }
+.category-52 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/chickens.jpg); }
+.category-53 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/beehive.jpg); }
+.category-54 #mastbanner{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/garden.jpg); }
+
+/* category header icons */
+.category-the-coop .blog-header,.category-the-garden .blog-header,.category-the-hive .blog-header{ background-repeat:no-repeat; background-size:contain; padding-left:150px;}
+.category-the-coop .breadcrumb-blog, .category-the-garden .breadcrumb-blog,.category-the-hive .breadcrumb-blog {
+  transform: translateY(-100%);
+}
+.category-the-coop .blog-header{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/icon-egl-coop.png); }
+.category-the-garden .blog-header{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/icon-egl-garden.png); }
+.category-the-hive .blog-header{background-image:url(http://www.expeditiongoodlife.com/wp-content/uploads/2015/12/icon-egl-hive.png); }
+/* NEED TO FIX MOBILE RESPONSIVE */
+
+/*** SCRIPTLESS SHARE **/
+.scriptlesssocialsharing {
+    margin: 40px auto 0;
+}
+.scriptlesssocialsharing-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.scriptlesssocialsharing-buttons .button {
+    color: white;
+    flex: 0 0 24%;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 1px;
+    max-width: 120px;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+}
+.scriptlesssocialsharing-buttons .sss-name {
+    color: #fff;
+}
+.scriptlesssocialsharing-buttons .email {
+    background-color: rgba(51, 51, 51, 0.8);
+}
+.scriptlesssocialsharing-buttons .email:hover {
+    background-color: #333;
+}
+.scriptlesssocialsharing-buttons .twitter {
+    background-color: rgba(85, 172, 238, 0.8);
+}
+.scriptlesssocialsharing-buttons .twitter:hover {
+    background-color: #55acee;
+}
+.scriptlesssocialsharing-buttons .facebook {
+    background-color: rgba(59, 89, 152, 0.8);
+}
+.scriptlesssocialsharing-buttons .facebook:hover {
+    background-color: #3b5998;
+}
+.scriptlesssocialsharing-buttons .linkedin {
+    background-color: rgba(0, 119, 181, 0.8);
+}
+.scriptlesssocialsharing-buttons .linkedin:hover {
+    background-color: #0077b5;
+}
+.scriptlesssocialsharing-buttons .pinterest {
+    background-color: rgba(189, 8, 28, 0.8);
+}
+.scriptlesssocialsharing-buttons .pinterest:hover {
+    background-color: #bd081c;
+}
+.scriptlesssocialsharing-buttons .google {
+    background-color: rgba(220, 78, 65, 0.8);
+}
+.scriptlesssocialsharing-buttons .google:hover {
+    background-color: #dc4e41;
+}
+.scriptlesssocialsharing-buttons .print {
+    background-color: rgba(204, 204, 204, 0.8);
+}
+.scriptlesssocialsharing-buttons .print:hover {
+    background-color: #cccccc;
+}
+.scriptlesssocialsharing-buttons .button::before {
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font: 14px FontAwesome;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    text-rendering: auto;
+    transform: translate(0px, 0px);
+    vertical-align: middle;
+}
+.scriptlesssocialsharing-buttons .twitter::before, .egl-share-btn .twitter:before {
+    content: "\f099";
+}
+.scriptlesssocialsharing-buttons .facebook::before {
+    content: "\f09a";
+}
+.scriptlesssocialsharing-buttons .google::before {
+    content: "\f0d5";
+}
+.scriptlesssocialsharing-buttons .pinterest::before {
+    content: "\f231";
+}
+.scriptlesssocialsharing-buttons .linkedin::before {
+    content: "";
+}
+.scriptlesssocialsharing-buttons .email::before {
+    content: "\f0e0";
+}
+
+.scriptlesssocialsharing-buttons .print::before {
+    content: "\f02f";
+}
+
+
+.box {padding-right:1rem; text-transform:uppercase;}
+li.separator{font-size:48px; }
+.box a{display:block; text-align:center; cursor:default; text-decoration:none;}
+.box a,.box a:hover{color:#267f82;}
+.box a.count{font-weight:800; font-size:5rem; height:5rem; line-height:1;}
+.box a.share{padding-botttom:1rem; font-size:1.5rem;}
+a.egl-share-btn{display:inline-block; padding:5px 10px; margin-right:5px; background:#888; color:#fff; text-decoration:none; position:relative; top:50%; transform:translateY(-50%); opacity:.9; margin-bottom:1rem;}
+
+a.egl-share-btn.twitter{background-color: #55acee;}
+a.egl-share-btn.facebook{ background-color: #3b5998;}
+a.egl-share-btn.pinterest{background-color: #bd081c;}
+a.egl-share-btn.google{ background-color: #dc4e41;}
+a.egl-share-btn:hover, a.egl-share-btn .fa{opacity:1; color:#fff;}
+
+/* RECIPES */
+/* article.category-recipes .two_thirds #steps {background:#ff0;} */
+#recipeSteps .figure{
+	outline:5px solid #fff;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	background-color:#f4edce;
+	}
+
+/* HOME */
+
+.home .egl-share-btn.print{display:none;}	
+.home .eglsh-buttons{font-size:26px; margin-top:24px;}
+
+.responsiveVideo{position:relative; padding:0; margin:0; padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;}
+.responsiveVideo iframe{position:absolute; left:0; top:0; width:100% !important; height:100% !important;}
+
+/* SIDEBARS */
+.sidebar .sidebar-widget, #advanced_text-6{background:#eee;}
+.sidebar .sidebar-widget input[type="text"], .swatch-beige .sidebar .sidebar-widget input[type="text"], #awf_field-79338399-first, #awf_field-79338400 {background:#ff !important; margin-bottom:.5rem;}
+.sidebar .sidebar-widget h3, .sidebar-widget p, #advanced_text-6 h3, #advanced_text-6 p{padding:1rem;}
+.sidebar .sidebar-widget h3, #advanced_text-6 h3{ padding-bottom:0 !important; margin-bottom:0;}
+.sidebar .sidebar-widget a, #advanced_text-6 a{text-decoration:underline; font-weight:bold; }
+
+#advanced_text-8{font-size:.9rem; padding-top:2rem; padding-bottom:2rem;}
+
+#advanced_text-5 h3, #advanced_text-4 h3{font-size:3.4rem; line-height:1; text-align:center;}
+
+#advanced_text-4 .sidebar-header::after {
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: relative;
+  width: 50px;
+}
+
+/* TAB BUTTONS */
+.swatch-white .tab-pane .btn, [class*="swatch-"] .swatch-white .tab-pane .btn, .swatch-white .tab-pane.active .btn, [class*="swatch-"] .swatch-white .tab-pane.active .btn {
+  background: #f4e39f none repeat scroll 0 0 !important;
+  color: #2d9194 !important;
+}
+.swatch-white .btn-primary i, [class*="swatch-"] .swatch-white .btn-primary i {
+  color: #2d9194 !important;
+}
+
+@media only screen and (min-width: 480px){
+	#mastbanner{height:300px;}
+	/*
+	.category-recipes #steps  .ebor-one-third:nth-of-type(2n+1) img,
+.category-recipes #steps  .vc_row:nth-of-type(2n+1) img{
+	-moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	transform: rotate(10deg);
+	}
+	 */
+
+#recipeSteps  .processStep:nth-of-type(2n+1) .figure{
+	-moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	transform: rotate(10deg);
+	}
+	
+#recipeSteps  .processStep:nth-of-type(2n+2) .figure{
+	-moz-transform: rotate(-8deg);
+	-webkit-transform: rotate(-8deg);
+	-o-transform: rotate(-8deg);
+	-ms-transform: rotate(-8deg);
+	transform: rotate(-8deg);
+	}
+	
+#recipeSteps  .processStep:nth-of-type(2n+3) .figure{
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+	}
+
+#recipeSteps  .processStep:nth-of-type(2n+1) .main-image img {
+  	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+	 
+}
+
+
+@media (min-width:992px){
+	#mastbanner{height:400px;}
+	#eglCircle{ display:inline-block; height:300px; width:auto;  }
+	#masthead .navbar-brand {
+  /* height: 150px; */
+	 width:100%;
+	text-align:center;
+	}
+	
+	#masthead .navbar-brand { opacity:0;}
+	
+	.navbar-scrolled#masthead .navbar-brand { opacity:1;}
+	
+	
+}
+
+@media print{
+	
+	/* RESET */
+	 
+	.container, img, .post-head {
+max-width: 100%;
+}
+
+	body{overflow: visible; font: 12pt Georgia, "Times New Roman", Times, serif;
+line-height: 1.3;}
+	
+	#mastbanner,.eglsharingWrapper, .single .blog-header, .scriptlesssocialsharing, .single .sidebar-widget,#fbCommentBox{display:none;}
+
+header,h1,h2,h3{display:block; width:90%;}
+	
+	header:before {
+display: block;
+width:90%; 
+
+content: "Thank you for printing our content at www.expeditiongoodlife.com. Please check back soon for more healthy living tips, tricks, and inspiration.";
+margin-bottom: 10px;
+border: 1px solid #bbb;
+padding: 3px 5px;
+font-style: italic;
+}
+
+header:after {
+content: "www.expeditiongoodlife.com";
+}
+p a:after {
+content: " (" attr(href) ")";
+font-size: 80%;
+}
+
+	.figure{font-size:8pt;}
+ 
+section, .row::after, .row::before {
+  content: " ";
+  display: table;
+}
+section, .row::after {
+  clear: both;
+}
+section{max-width:90%;  overflow:visible; }
+div.container{overflow:visible;}
+
+
+.single .row{margin:0;}
+.single .col-md-1, .single .col-md-10, .single .col-md-11, .single .col-md-12, .single .col-md-2, .single .col-md-3, .single .col-md-4, .single .col-md-5, .single .col-md-6, .single .col-md-7, .single .col-md-8, .single .col-md-9 {
+  /* float: left; */
+  float:none;
+  display:inline;
+  overflow:visible;  
+  
+  -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.single .col-md-6{width:49.9%;}
+.single .col-md-4 {
+  width: 33.3333%;
+}
+.single .col-md-8 {
+  width: 66.6667%;
+}
+
+ /*Break Page*/
+#comments {page-break-before: always;}
+	
+}

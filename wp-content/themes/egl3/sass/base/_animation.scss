@@ -1,0 +1,14 @@
+$standard-anim-time: 3s;
+
+.animate-rotate {
+  animation: rotation $standard-anim-time infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

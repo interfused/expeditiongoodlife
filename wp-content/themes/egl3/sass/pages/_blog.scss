@@ -1,8 +1,33 @@
 .blog,
 .category {
-  main img {
-    max-width: 100%;
-    height: auto;
+  .entry-summary {
+    @extend .colorScheme3;
+    overflow: hidden;
+    & > a {
+      text-decoration: none;
+      img {
+        max-width: 100%;
+        height: auto;
+        opacity: 0.9;
+        @include transition();
+      }
+
+      h2 {
+        padding: $std-padding;
+        padding-bottom: 0;
+        font-size: 1.5em;
+      }
+      & + div {
+        padding: $std-padding;
+        padding-top: 0;
+      }
+      &:hover {
+        img {
+          transform: scale(1.1);
+          opacity: 1;
+        }
+      }
+    }
   }
 
   @media (min-width: map-get($grid-breakpoints, lg)) {
@@ -13,18 +38,101 @@
       flex-wrap: wrap;
       justify-content: space-between;
       padding: 4em;
+      margin-top: -95px;
       header {
         width: 100%;
         margin-bottom: 1em;
       }
       article {
-        width: 30%;
+        width: 32%;
+        margin-bottom: 2em;
         .entry-title a {
           text-decoration: none;
           font-size: 1.6rem;
         }
         .entry-meta {
           display: none;
+        }
+      }
+    }
+  }
+}
+
+.single {
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .entry-content {
+    @extend .container;
+    margin: 0 auto;
+    width: 95%;
+
+    h1 {
+      margin-top: 1em;
+    }
+
+    p {
+      @media (min-width: map-get($grid-breakpoints, lg)) {
+        column-count: 2;
+        column-gap: 2em;
+
+        & + p {
+          margin-top: 2em;
+        }
+      }
+    }
+
+    p + h3,
+    ul + h3 {
+      margin-top: 2em;
+      border-top: 1px solid;
+      padding-top: 1em;
+    }
+  }
+  .entry-footer,
+  #content .footer {
+    @extend .container;
+    margin: 2em auto;
+    width: 95%;
+  }
+
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    #content {
+      margin-top: -95px;
+    }
+  }
+}
+
+/** ALTERNATIVE VIEW **/
+.home.blog {
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    #content {
+      display: block;
+      background-color: $dark-gray;
+      color: $light-gray;
+      padding: 0;
+      article {
+        width: 33%;
+        float: left;
+        margin: 0;
+        border: 1px solid $gray-500;
+        border-right: none;
+        border-bottom: none;
+      }
+      article:nth-of-type(1) {
+        width: 66%;
+      }
+      nav {
+        clear: both;
+        font-size: 0.8em;
+        border-top: 1px solid $gray-500;
+        padding: 1em;
+        a {
+          color: $base-color;
+          text-decoration: none;
         }
       }
     }
